@@ -12,11 +12,9 @@ using System;
 public class _game : MonoBehaviour
 {
     Hashtable langT = new Hashtable();
-    //adVideo normal - ca-app-pub-7406680285571154/2564574421
-    //adBanner normal - ca-app-pub-7406680285571154/8826730445
-    private const string appID = "ca-app-pub-7406680285571154~4482773017";
-    private const string adVideo = "ca-app-pub-7406680285571154/2564574421";
-    private const string simpleBanner = "ca-app-pub-7406680285571154/8826730445";
+    private const string appID = "";
+    private const string adVideo = "";
+    private const string simpleBanner = "";
     private RewardBasedVideoAd rewardVideo;
     private BannerView bannerView;
     public static ulong litresSt, litresPerClickSt, litresPerSecondSt;
